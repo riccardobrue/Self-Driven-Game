@@ -1,0 +1,19 @@
+The examples show how to build more and more complex reinforcement learning agents:
+    - rl_1: Random search for good parameters
+            PROS: easy to conceptualize, no complicated math
+            CONS: keep random values hoping that we find something good
+
+    - rl_2: Q-learning with binned states (Tabular Q-Learning)
+            PROS: allows us to use a tabular method, using Q-Learning,
+                    which is a simple TD(0) method
+
+GOOD- rl_3: Q-learning with RBF networks (RBF are related to SVMs and neural networks)
+            PROS: RBF allows us to use neural networks with non-linear features still
+                    using a linear gradient descent algorithms
+            CONS: Build by our own a linear function approximator using numpy
+
+    - rl_4: Using Theano framework
+            PROS: Taken the rl_3 code and rewrote the linear function or in theano.
+
+    - rl_5: Using Theano framework
+            PROS: Same as rl_4, but in tensorflow
